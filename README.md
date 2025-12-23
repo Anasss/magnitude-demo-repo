@@ -2,6 +2,15 @@
 
 Basic repository to demonstrate how to set up Magnitude test cases.
 
+Why Magnitude for QA Automation
+Magnitude eliminates locator maintenance by testing what users see, not DOM structure. Perfect for:
+
+Replacing manual UAT: Automate repetitive user flows (search → cart → checkout) without brittle selectors
+Coexisting with Selenium: Use Magnitude for visual validation, keep Selenium for API/DOM testing
+Zero-maintenance tests: Site redesigns don't break tests—if the button still says "Add to Cart", the test still works
+
+Not a replacement for everything. Use Magnitude for stable user journeys. Use Selenium for cross-browser, API validation, and technical assertions.
+
 ## Running locally
 1. Clone repo:
 ```
